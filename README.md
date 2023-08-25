@@ -22,6 +22,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# ![#1589F0]`#1589F0` Practice purpouse
+
+Compartir data entre componentes padres-hijos y viceversa
+
+<parent-component>
+  <child-component></child-component>
+</parent-component>
+
+The <parent-component> serves as the context for the <child-component>.
+
+@Input() and @Output() give a child component a way to communicate with its parent component. @Input() lets a parent component update data in the child component. Conversely, @Output() lets the child send data to a parent component.
+[MasInfo](https://angular.io/guide/inputs-outputs)
