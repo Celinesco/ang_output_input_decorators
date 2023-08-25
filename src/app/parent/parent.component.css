@@ -1,0 +1,6 @@
+.container_parent {
+    padding:30px;
+    width: 300px;
+    border: 2px solid lightpink;
+    border-radius: 10px;
+}
