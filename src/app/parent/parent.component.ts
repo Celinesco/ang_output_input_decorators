@@ -9,10 +9,14 @@ import { Fruit } from '../fruits';
 export class ParentComponent {
   fruitList: Fruit[] = [
     {
-      id: 0,
+      id: '0',
       name: 'Banane',
     },
-    { id: 1, name: 'Birne' },
-    { id: 3, name: 'Apfel' },
+    { id: '1', name: 'Birne' },
+    { id: '3', name: 'Apfel' },
   ];
+
+  addFruit(newFruit: Fruit) {
+    this.fruitList.push(newFruit);
+  }
 }

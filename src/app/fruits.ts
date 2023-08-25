@@ -1,4 +1,4 @@
 export interface Fruit {
-  id: number;
+  id: string;
   name: string;
 }

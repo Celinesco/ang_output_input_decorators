@@ -1,1 +1,12 @@
-<p>child works!</p>
+<div class="container_child">
+    <h2>child component</h2>
+    <p>Enter your favorite fruits</p>
+    <form>
+        <label for="fruitinput">Fruit</label>
+        <input id="fruitinput" type="text" #newFruit>
+        <!-- ese #newFruit es para que el contenido del input se pueda pasar al button en este caso -->
+        <button type="submit" class="child_button"
+            (click)="addNewFruit(newFruit.value); newFruit.value=''; $event.preventDefault()">Add!</button>
+    </form>
+
+</div>

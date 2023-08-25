@@ -1,6 +1,13 @@
 .container_parent {
     padding:30px;
-    width: 300px;
-    border: 2px solid lightpink;
+    width: 400px;
+    border: 10px solid rgb(153, 16, 123);
     border-radius: 10px;
+}
+
+
+.container_parent h1 {
+    color:rgb(153, 16, 123);
+    font-size: 30px;
+    text-transform: uppercase;
 }

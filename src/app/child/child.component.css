@@ -1,0 +1,15 @@
+.container_child {
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid rgb(122, 106, 212);
+    
+}
+
+.container_child h2 {
+    color:  rgb(122, 106, 212);
+}
+
+.child_button {
+    background-color:  rgb(122, 106, 212) ;
+    color: white
+}
