@@ -17,6 +17,14 @@ export class ParentComponent {
   ];
 
   addFruit(newFruit: Fruit) {
-    this.fruitList.push(newFruit);
+    let norepetedFruit = this.fruitList.every((fruit: Fruit) => {
+      return fruit.name.toLowerCase() !== newFruit.name.trim().toLowerCase();
+    });
+    if (norepetedFruit) {
+      this.fruitList.push(newFruit);
+      console.log('Current List', this.fruitList);
+    } else {
+      console.log('fruit already exists');
+    }
   }
 }
